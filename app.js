@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // MySQL connection setup
 const db = mysql.createConnection({
-    host: 'localhost',
+    host: 'https://kedar1212.github.io/redis-demo/',
     user: 'root',
     password: 'kedar',
     database: 'employee_db'
